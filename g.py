@@ -17,7 +17,7 @@ def main():
             task = input("Enter task: ")
             tasks.append(task)
             print(f"Task '{task}' added!")
-        
+    
         elif choice == '2':
             if tasks:
                 print("\nYour Tasks:")
